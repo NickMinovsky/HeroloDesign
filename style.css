@@ -25,7 +25,6 @@ input {
   background-image: linear-gradient(135deg, #73abd7 0%, #80b3da 100%);
   outline: 0;
   border: 2px solid #5399e6;
-  font-family: "Font Awesome 5 Free", "Open Sans";
   font-weight: 900;
   margin: 5rem;
   padding: 30px 40px;
@@ -37,21 +36,25 @@ input {
 input::-webkit-input-placeholder {
   color: #0d1e57;
   text-align: center;
+  font-family: "Font Awesome 5 Free", "Open Sans";
 }
 
 input:-ms-input-placeholder {
   color: #0d1e57;
   text-align: center;
+  font-family: "Font Awesome 5 Free", "Open Sans";
 }
 
 input::-ms-input-placeholder {
   color: #0d1e57;
   text-align: center;
+  font-family: "Font Awesome 5 Free", "Open Sans";
 }
 
 input::placeholder {
   color: #0d1e57;
   text-align: center;
+  font-family: "Font Awesome 5 Free", "Open Sans";
 }
 
 main {

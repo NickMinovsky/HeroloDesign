@@ -35,7 +35,6 @@ input {
   background-image: map-get($colors, accent);
   outline: 0;
   border: 2px solid map-get($colors, border);
-  font-family: "Font Awesome 5 Free", "Open Sans";
   font-weight: 900;
   margin: 5rem;
   padding: 30px 40px;
@@ -47,6 +46,7 @@ input {
 input::placeholder {
   color: map-get($colors, primary);
   text-align: center;
+  font-family: "Font Awesome 5 Free", "Open Sans";
 }
 
 // MAIN
